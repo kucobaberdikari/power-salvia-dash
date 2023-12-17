@@ -13,6 +13,10 @@
   margin-left: 6px;
 }
 
+.min-w-44 {
+  min-width: 11rem;
+}
+
 .mb-\[30px\] {
   margin-bottom: 30px;
 }
