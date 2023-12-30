@@ -11,10 +11,10 @@ defineProps({
   <div class="flex flex-col flex-wrap sm:flex-row lg:mb-4">
     <div class="w-full sm:w-1/2 xl:w-1/3">
       <div class="mb-4">
-        <div class="w-full rounded-2xl bg-white p-4 shadow-lg">
+        <div class="w-full rounded-2xl bg-venice-blue p-4 shadow-lg">
           <div class="mb-6 flex items-center justify-between">
             <div class="flex items-center">
-              <span class="relative rounded-xl bg-blue-100 p-2">
+              <span class="relative rounded-xl bg-white p-2">
                 <svg
                   width="25"
                   height="25"
@@ -62,7 +62,7 @@ defineProps({
                   />
                 </svg>
               </button>
-              <button class="text-gray-200">
+              <button class="text-gray-400">
                 <svg
                   width="25"
                   height="25"

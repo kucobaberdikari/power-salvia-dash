@@ -27,11 +27,11 @@ watch(route, () => {
       <Overlay />
       <Sidebar mobile-orientation="start"/>
       <div
-       class="flex h-screen w-full flex-col pl-0 lg:space-y-4" 
+       class="flex h-screen w-full flex-col pl-0 space-y-2 lg:space-y-4" 
         :class="sidebarOpen ? 'lg:w-full':'lg:pl-4 lg:w-[calc(100%-16rem)]'"
         >
-        <navbar aria-expanded="true"/>
-        <main class="h-screen overflow-auto px-2 pb-36 md:pb-8 pt-0">
+        <navbar />
+        <main class="h-screen overflow-auto mx-2 pb-36 md:pb-8 pt-0">
           <slot/>
         </main>
       </div>
